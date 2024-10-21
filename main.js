@@ -11,7 +11,7 @@ function clearGrid() {
 
 // Function to create a grid
 function createGrid(size) {
-    clearGrid(); // Clear the grid without using innerHTML
+    clearGrid(); // Makes sure the grid is clear.
 
     sketchArea.style.gridTemplateColumns = `repeat(${size}, 1fr)`;
     sketchArea.style.gridTemplateRows = `repeat(${size}, 1fr)`;
