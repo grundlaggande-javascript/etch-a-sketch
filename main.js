@@ -18,7 +18,7 @@ function createGrid(size) {
 
     for (let i = 0; i < size * size; i++) {
         const cell = document.createElement('div');
-        cell.classList.add('cell');
+        cell.classList.add('cell'); // We assigned a class directly with className. But now we add to the classlist instead.
 
         // Add event listener for mouseover to "draw" on the grid
         cell.addEventListener('mouseover', () => {
