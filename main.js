@@ -41,6 +41,7 @@ document.addEventListener('mouseup', () => {
 });
 
 // Reset button functionality
+// We did this differently in the lecture where we re-rendered the whole thing instead.
 resetBtn.addEventListener('click', () => {
     const cells = document.querySelectorAll('.cell');
     cells.forEach(cell => cell.style.backgroundColor = 'white');
